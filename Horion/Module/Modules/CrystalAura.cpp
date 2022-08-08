@@ -2,9 +2,9 @@
 
 CrystalAura::CrystalAura() : IModule(VK_NUMPAD0, Category::COMBAT, "Destroys nearby Crystals") {
 	registerIntSetting("Range", &this->range, this->range, 1, 10);
-	registerIntSetting("Crystal range", &this->cRange, this->cRange, 1, 15);
-	registerIntSetting("Place range", &this->eRange, this->eRange, 1, 5);
-	registerIntSetting("Player range", &this->pRange, this->pRange, 1, 10);
+	registerIntSetting("Crystal range", &this->cRange, this->cRange, 1, 20);
+	registerIntSetting("Place range", &this->eRange, this->eRange, 1, 10);
+	registerIntSetting("Player range", &this->pRange, this->pRange, 1, 15);
 	registerBoolSetting("Auto select", &this->AutoSelect, this->AutoSelect);
 	registerBoolSetting("Autoplace", &this->autoplace, this->autoplace);
 	registerBoolSetting("Enhance place", &this->pEnhanced, this->pEnhanced);
